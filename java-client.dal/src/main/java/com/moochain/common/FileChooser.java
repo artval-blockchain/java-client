@@ -1,4 +1,4 @@
-package com.moochain.common.dao;
+package com.moochain.common;
 
 import javax.swing.*;
 import java.io.File;

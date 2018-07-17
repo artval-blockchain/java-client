@@ -1,4 +1,4 @@
-package com.moochain.common.dao;
+package com.moochain.common;
 
 import com.alibaba.fastjson.JSONObject;
 import jodd.http.HttpRequest;
