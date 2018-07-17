@@ -12,21 +12,10 @@
     <artifactId>java-client.utils</artifactId>
 
     <dependencies>
-
-        <dependency>
-            <groupId>com.caucho</groupId>
-            <artifactId>hessian</artifactId>
-            <version>${hessian.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.jodd</groupId>
             <artifactId>jodd-http</artifactId>
             <version>${jodd.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>net.lingala.zip4j</groupId>
-            <artifactId>zip4j</artifactId>
-            <version>${zip4j.version}</version>
         </dependency>
 
         <!-- 其它依赖 -->
@@ -35,23 +24,6 @@
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-core</artifactId>
-            <version>3.2.6</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun.oss</groupId>
-            <artifactId>aliyun-sdk-oss</artifactId>
-            <version>2.7.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
-            <version>3.2.3</version>
-        </dependency>
-
     </dependencies>
 
     <build>
